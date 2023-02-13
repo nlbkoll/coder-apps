@@ -7,6 +7,6 @@ coder:
       subdomain: false
       share: public
       healthcheck:
-        url: http://localhost:8080"
+        url: http://localhost:8080
         interval: 3
         threshold: 10
