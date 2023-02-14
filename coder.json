@@ -1,0 +1,19 @@
+{
+  "coder": {
+    "apps": [
+      {
+        "display_name": "file-server-8080",
+        "slug": "file-server-8080",
+        "icon": "/icon/code.svg",
+        "url": "http://localhost:8080",
+        "subdomain": false,
+        "share": "public",
+        "healthcheck": {
+          "url": "http://localhost:8080",
+          "interval": 3,
+          "threshold": 10
+        }
+      }
+    ]
+  }
+}
