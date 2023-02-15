@@ -20,13 +20,3 @@ coder:
         url: http://localhost:8081
         interval: 3
         threshold: 10
-    - display_name: test
-      slug: test
-      icon: /icon/code.svg
-      url: http://localhost:8082
-      subdomain: false
-      share: public
-      healthcheck:
-        url: http://localhost:8082
-        interval: 3
-        threshold: 10
