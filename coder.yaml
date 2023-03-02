@@ -1,5 +1,8 @@
 coder:
   workspace:
+    shell:
+      login: zsh
+      editor: vim
     jetbrains:
       intellij:
         enable: true
