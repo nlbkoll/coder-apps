@@ -1,4 +1,12 @@
 coder:
+  workspace:
+    jetbrains:
+      intellij:
+        enable: true
+        idePath: /opt/idea
+      plugins:
+        - name: SpotBugs
+          id: 142953
   apps:
     - display_name: file-server-8080
       slug: file-server-8080
