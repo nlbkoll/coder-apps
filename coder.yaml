@@ -16,7 +16,7 @@ coder:
           git_orga: nlbkoll
           git_repo: coder-apps
           git_ref: main
-          path: /workspace/base
+          path: /workspace/coder-apps
   apps:
     - display_name: file-server-8080
       slug: file-server-8080
