@@ -1,8 +1,8 @@
 coder:
   workspace:
     shell:
-      login: zsh
-      editor: vim
+      login: /usr/sbin/zsh
+      editor: /usr/sbin/vim
     git:
       additional_repos:
         - description: test
