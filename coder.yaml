@@ -3,13 +3,6 @@ coder:
     shell:
       login: zsh
       editor: vim
-    jetbrains:
-      intellij:
-        enable: true
-        idePath: /opt/idea
-      plugins:
-        - name: SpotBugs
-          id: 142953
     git:
       additional_repos:
         - description: test
@@ -17,6 +10,15 @@ coder:
           git_repo: coder-apps
           git_ref: main
           path: /workspace/coder-apps
+
+  jetbrains:
+    intellij:
+      enable: true
+      idePath: /opt/idea
+    plugins:
+      - name: SpotBugs
+        id: 142953
+
   apps:
     - display_name: file-server-8080
       slug: file-server-8080
