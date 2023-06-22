@@ -22,7 +22,7 @@ coder:
   apps:
     - display_name: file-server-8080
       slug: file-server-8080
-      icon: /icon/code.svg
+      icon: pirate.png
       url: http://localhost:8080
       subdomain: false
       share: public
@@ -32,7 +32,7 @@ coder:
         threshold: 10
     - display_name: file-server-8081
       slug: file-server-8081
-      icon: /icon/code.svg
+      icon: /pirate.png
       url: http://localhost:8081
       subdomain: false
       share: public
